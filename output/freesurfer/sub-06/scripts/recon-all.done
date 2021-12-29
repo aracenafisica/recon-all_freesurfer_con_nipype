@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT sub-06
+START_TIME mar 28 dic 2021 13:30:11 -03
+END_TIME mié 29 dic 2021 00:59:37 -03
+RUNTIME_HOURS 11,491
+USER aracena
+HOST daniela-MS-7760
+PROCESSOR x86_64
+OS Linux
+UNAME Linux daniela-MS-7760 5.11.0-41-generic #45-Ubuntu SMP Fri Nov 5 11:37:01 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+VERSION 7.2.0 (freesurfer-linux-ubuntu18_x86_64-7.2.0-20210721-aa8f76b)
+CMDPATH /home/aracena/freesurfer/bin/recon-all
+CMDARGS -all -i /home/aracena/thesis_practica/data/ds002422/sub-06/anat/sub-06_T1w.nii -subjid sub-06 -sd /home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer

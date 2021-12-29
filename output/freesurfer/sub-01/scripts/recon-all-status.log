@@ -1,0 +1,81 @@
+status file for recon-all
+lun 27 dic 2021 16:32:29 -03
+#@# MotionCor lun 27 dic 2021 16:32:34 -03
+#@# Talairach lun 27 dic 2021 16:32:43 -03
+#@# Talairach Failure Detection lun 27 dic 2021 16:36:21 -03
+#@# Nu Intensity Correction lun 27 dic 2021 16:36:21 -03
+#@# Intensity Normalization lun 27 dic 2021 16:39:47 -03
+#@# Skull Stripping lun 27 dic 2021 16:41:42 -03
+#@# EM Registration lun 27 dic 2021 16:51:03 -03
+#@# CA Normalize lun 27 dic 2021 16:59:23 -03
+#@# CA Reg lun 27 dic 2021 17:00:37 -03
+#@# SubCort Seg lun 27 dic 2021 19:26:33 -03
+#@# CC Seg lun 27 dic 2021 20:08:10 -03
+#@# Merge ASeg lun 27 dic 2021 20:08:49 -03
+#@# Intensity Normalization2 lun 27 dic 2021 20:08:49 -03
+#@# Mask BFS lun 27 dic 2021 20:11:41 -03
+#@# WM Segmentation lun 27 dic 2021 20:11:43 -03
+#@# Fill lun 27 dic 2021 20:14:29 -03
+#@# Tessellate lh lun 27 dic 2021 20:15:33 -03
+#@# Tessellate rh lun 27 dic 2021 20:15:38 -03
+#@# Smooth1 lh lun 27 dic 2021 20:15:42 -03
+#@# Smooth1 rh lun 27 dic 2021 20:15:45 -03
+#@# Inflation1 lh lun 27 dic 2021 20:15:48 -03
+#@# Inflation1 rh lun 27 dic 2021 20:16:08 -03
+#@# QSphere lh lun 27 dic 2021 20:16:27 -03
+#@# QSphere rh lun 27 dic 2021 20:19:03 -03
+#@# Fix Topology lh lun 27 dic 2021 20:22:18 -03
+#@# Fix Topology rh lun 27 dic 2021 20:23:41 -03
+#@# Smooth2 lh lun 27 dic 2021 20:34:32 -03
+#@# Smooth2 rh lun 27 dic 2021 20:34:36 -03
+#@# Inflation2 lh lun 27 dic 2021 20:34:40 -03
+#@# Inflation2 rh lun 27 dic 2021 20:35:11 -03
+#@# Curv .H and .K lh lun 27 dic 2021 20:35:43 -03
+#@# Curv .H and .K rh lun 27 dic 2021 20:36:34 -03
+#@# Sphere lh lun 27 dic 2021 20:37:25 -03
+#@# Sphere rh lun 27 dic 2021 20:45:34 -03
+#@# Surf Reg lh lun 27 dic 2021 20:50:00 -03
+#@# Surf Reg rh lun 27 dic 2021 20:57:39 -03
+#@# Jacobian white lh lun 27 dic 2021 21:06:31 -03
+#@# Jacobian white rh lun 27 dic 2021 21:06:32 -03
+#@# AvgCurv lh lun 27 dic 2021 21:06:34 -03
+#@# AvgCurv rh lun 27 dic 2021 21:06:35 -03
+#@# Cortical Parc lh lun 27 dic 2021 21:06:36 -03
+#@# Cortical Parc rh lun 27 dic 2021 21:06:47 -03
+#@# white curv lh lun 27 dic 2021 21:21:55 -03
+#@# white area lh lun 27 dic 2021 21:21:57 -03
+#@# pial curv lh lun 27 dic 2021 21:21:58 -03
+#@# pial area lh lun 27 dic 2021 21:22:01 -03
+#@# thickness lh lun 27 dic 2021 21:22:02 -03
+#@# area and vertex vol lh lun 27 dic 2021 21:22:42 -03
+#@# white curv rh lun 27 dic 2021 21:22:44 -03
+#@# white area rh lun 27 dic 2021 21:22:47 -03
+#@# pial curv rh lun 27 dic 2021 21:22:48 -03
+#@# pial area rh lun 27 dic 2021 21:22:50 -03
+#@# thickness rh lun 27 dic 2021 21:22:51 -03
+#@# area and vertex vol rh lun 27 dic 2021 21:23:33 -03
+#@# Curvature Stats lh lun 27 dic 2021 21:23:35 -03
+#@# Curvature Stats rh lun 27 dic 2021 21:23:38 -03
+#@# Cortical ribbon mask lun 27 dic 2021 21:23:41 -03
+#@# Cortical Parc 2 lh lun 27 dic 2021 21:31:43 -03
+#@# Cortical Parc 2 rh lun 27 dic 2021 21:31:58 -03
+#@# Cortical Parc 3 lh lun 27 dic 2021 21:32:14 -03
+#@# Cortical Parc 3 rh lun 27 dic 2021 21:32:25 -03
+#@# WM/GM Contrast lh lun 27 dic 2021 21:32:38 -03
+#@# WM/GM Contrast rh lun 27 dic 2021 21:32:42 -03
+#@# Relabel Hypointensities lun 27 dic 2021 21:32:46 -03
+#@# APas-to-ASeg lun 27 dic 2021 21:33:04 -03
+#@# AParc-to-ASeg aparc lun 27 dic 2021 21:33:19 -03
+#@# AParc-to-ASeg aparc.a2009s lun 27 dic 2021 21:36:44 -03
+#@# AParc-to-ASeg aparc.DKTatlas lun 27 dic 2021 21:40:09 -03
+#@# WMParc lun 27 dic 2021 21:43:33 -03
+#@# Parcellation Stats lh lun 27 dic 2021 21:50:08 -03
+#@# Parcellation Stats rh lun 27 dic 2021 21:50:37 -03
+#@# Parcellation Stats 2 lh lun 27 dic 2021 21:51:08 -03
+#@# Parcellation Stats 2 rh lun 27 dic 2021 21:51:24 -03
+#@# Parcellation Stats 3 lh lun 27 dic 2021 21:51:40 -03
+#@# Parcellation Stats 3 rh lun 27 dic 2021 21:51:55 -03
+#@# ASeg Stats lun 27 dic 2021 21:52:10 -03
+#@# BA_exvivo Labels lh lun 27 dic 2021 21:55:04 -03
+#@# BA_exvivo Labels rh lun 27 dic 2021 21:59:18 -03
+recon-all -s sub-01 finished without error at lun 27 dic 2021 22:03:27 -03

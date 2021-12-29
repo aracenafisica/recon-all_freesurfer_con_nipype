@@ -1,0 +1,24 @@
+/opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-01/mri
+/home/aracena/freesurfer/bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50
+nIters 1
+mri_nu_correct.mni 7.2.0
+Linux daniela-MS-7760 5.11.0-41-generic #45-Ubuntu SMP Fri Nov 5 11:37:01 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+lun 27 dic 2021 16:32:43 -03
+tmpdir is ./tmp.mri_nu_correct.mni.841863
+cd /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-01/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.841863/nu0.mgz --dtype uchar
+AntsN4BiasFieldCorrectionFs done
+mri_convert ./tmp.mri_nu_correct.mni.841863/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+mri_convert ./tmp.mri_nu_correct.mni.841863/nu0.mgz orig_nu.mgz --like orig.mgz --conform 
+reading from ./tmp.mri_nu_correct.mni.841863/nu0.mgz...
+TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 1.86265e-09, 1.86265e-09)
+j_ras = (0, -3.49246e-10, -1)
+k_ras = (-1.86265e-09, 1, -2.09548e-09)
+INFO: transform src into the like-volume: orig.mgz
+writing to orig_nu.mgz...
+ 
+ 
+lun 27 dic 2021 16:35:45 -03
+mri_nu_correct.mni done

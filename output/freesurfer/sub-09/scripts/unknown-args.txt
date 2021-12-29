@@ -1,0 +1,7 @@
+-all
+-i
+/home/aracena/thesis_practica/data/ds002422/sub-09/anat/sub-09_T1w.nii
+-subjid
+sub-09
+-sd
+/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer

@@ -1,0 +1,1 @@
+mri_convert /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-03/mri/rawavg.mgz /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-03/mri/orig.mgz --conform

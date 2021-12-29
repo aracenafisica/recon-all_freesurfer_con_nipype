@@ -1,0 +1,174 @@
+{
+    "data_type": "fs_pointset",
+    "points": [
+        {
+            "coordinates": {
+                "x": -27.8922,
+                "y": -73.6065,
+                "z": 42.895
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -30.6953,
+                "y": -55.1141,
+                "z": 47.717
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -35.9273,
+                "y": -43.4706,
+                "z": -21.1466
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -19.0368,
+                "y": -37.302,
+                "z": 1.83566
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -29.0936,
+                "y": -35.9291,
+                "z": 4.14049
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -32.0495,
+                "y": -31.5987,
+                "z": -3.93909
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -1.9589,
+                "y": -26.9232,
+                "z": 11.1534
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -25.1705,
+                "y": -18.9116,
+                "z": -10.5932
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -29.4833,
+                "y": -11.8165,
+                "z": -22.1955
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -41.1839,
+                "y": -4.43988,
+                "z": -36.2716
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -6.07187,
+                "y": 6.64106,
+                "z": -18.1899
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -4.58454,
+                "y": -0.202696,
+                "z": 1.6867
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -16.6978,
+                "y": -0.717653,
+                "z": 52.1589
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": 0.659851,
+                "y": 2.47679,
+                "z": 8.32211
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -23.3281,
+                "y": 7.55371,
+                "z": -33.5313
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -16.0204,
+                "y": 9.63064,
+                "z": -14.3005
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -22.4498,
+                "y": 10.6586,
+                "z": -15.6739
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -4.44847,
+                "y": 13.5013,
+                "z": -16.0485
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -4.01723,
+                "y": 27.2268,
+                "z": -7.6883
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -37.7732,
+                "y": 43.3696,
+                "z": -0.18235
+            },
+            "legacy_stat": 1
+        },
+        {
+            "coordinates": {
+                "x": -4.8552,
+                "y": 50.9212,
+                "z": 16.3348
+            },
+            "legacy_stat": 1
+        }
+    ],
+    "vox2ras": "scanner_ras"
+}

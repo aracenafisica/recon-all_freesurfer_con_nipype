@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+mar 28 dic 2021 08:36:55 -03
+setenv SUBJECTS_DIR /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer
+cd /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-03/scripts
+/home/aracena/freesurfer/bin/pctsurfcon
+pctsurfcon 7.2.0
+Linux daniela-MS-7760 5.11.0-41-generic #45-Ubuntu SMP Fri Nov 5 11:37:01 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /home/aracena/freesurfer
+Cleaning up

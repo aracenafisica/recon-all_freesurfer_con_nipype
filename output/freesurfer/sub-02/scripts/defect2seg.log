@@ -1,0 +1,39 @@
+Log file for defect2seg
+lun 27 dic 2021 20:46:15 -03
+
+setenv SUBJECTS_DIR /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer
+cd /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/scripts
+/home/aracena/freesurfer/bin/defect2seg --s sub-02
+
+freesurfer-linux-ubuntu18_x86_64-7.2.0-20210721-aa8f76b
+defect2seg 7.2.0
+Linux daniela-MS-7760 5.11.0-41-generic #45-Ubuntu SMP Fri Nov 5 11:37:01 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+pid 871104
+mri_label2vol --defects /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/lh.orig.nofix /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/lh.defect_labels /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/mri/orig.mgz 1000 0 /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/mri/surface.defects.mgz
+mri_label2vol supposed to be reproducible but seed not set
+Changing input type 0 to MRI_INT
+Converting defects to volume: offset=1000, merge=0
+Writing to /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/mri/surface.defects.mgz
+mris_defects_pointset -s /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/lh.orig.nofix -d /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/lh.defect_labels -o /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/lh.defects.pointset
+Reading in surface /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/lh.orig.nofix
+Reading in defect segmentation /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/lh.defect_labels
+#VMPC# mris_defects_pointset 187772
+mris_defects_pointset done
+mri_label2vol --defects /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/rh.orig.nofix /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/rh.defect_labels /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/mri/surface.defects.mgz 2000 1 /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/mri/surface.defects.mgz
+mri_label2vol supposed to be reproducible but seed not set
+Converting defects to volume: offset=2000, merge=1
+MRIcopyHeader(): source has ctab
+Writing to /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/mri/surface.defects.mgz
+mris_defects_pointset -s /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/rh.orig.nofix -d /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/rh.defect_labels -o /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/rh.defects.pointset
+Reading in surface /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/rh.orig.nofix
+Reading in defect segmentation /opt/home/aracena/thesis_practica/tips_nibabel/3_recon-all_freesurfer/output/freesurfer/sub-02/surf/rh.defect_labels
+#VMPC# mris_defects_pointset 180716
+mris_defects_pointset done
+ 
+Started at lun 27 dic 2021 20:46:15 -03 
+Ended   at lun 27 dic 2021 20:46:20 -03
+Defect2seg-Run-Time-Sec 5
+Defect2seg-Run-Time-Min 0,10
+Defect2seg-Run-Time-Hours 0,00
+ 
+defect2seg Done
